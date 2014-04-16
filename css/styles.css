@@ -1,1 +1,29 @@
-/* My Styles */
+ Masthead*/
+header{
+	position: relative;
+}
+
+header h1{
+	position: absolute;
+	left: 48px;
+	bottom: 0;
+	font-size: 2em;
+}
+
+/* Column 1 Styling*/
+.tabs-content {
+	border: 1px solid black;
+	border-top: none;
+	padding: 10px;
+
+
+/* Column 2 Styling */
+.panelcallout{
+	background-color: #0F698A;
+}
+
+/*Modal*/
+
+.reveal-modal-bg{
+	background: rgba(233, 216, 24, 0.29);
+}
