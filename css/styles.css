@@ -1,1 +1,17 @@
 /* My Styles */
+
+
+/* Orbit slider */
+
+.orbit-container .orbit-slides-container li .orbit-caption{
+	background-color: rgba(241, 238, 163, 1);
+	padding: 20px;
+}
+
+.orbit-prev{
+	width: 72px;
+}
+
+.orbit-container .orbit-prev, .orbit-container .orbit-next{
+
+}

@@ -1,2 +1,8 @@
 // My Scripts
-$(document).foundation();
+$(document).foundation({
+
+	orbit : {
+		bullets : false,
+		animation : 'fade'
+	}
+});
