@@ -1,29 +1,73 @@
- Masthead*/
-header{
+/* My Styles */
+body{
+	background-image: url('http://sstapish.github.io/p3-style-tile/img/mocha.png');
+}
+
+h1{
+	font-family: 'Merienda', cursive;
+	color: #1E1C45;
+	position:absolute;
+	top:4em;
+}
+
+}
+
+h2{
+	font-family:'Paprika', cursive;
+}
+
+header img{
 	position: relative;
 }
 
-header h1{
-	position: absolute;
-	left: 48px;
-	bottom: 0;
-	font-size: 2em;
+.logo img{
+	max-width: 300px;
+	max-height: 200px;
+	
 }
 
-/* Column 1 Styling*/
-.tabs-content {
-	border: 1px solid black;
-	border-top: none;
-	padding: 10px;
-
-
-/* Column 2 Styling */
-.panelcallout{
-	background-color: #0F698A;
+.tabs{
+	margin-top: 2em;
 }
 
-/*Modal*/
+p{
+	margin-top: 2em;
+}
 
-.reveal-modal-bg{
-	background: rgba(233, 216, 24, 0.29);
+
+/*Side Nav*/
+
+.side-links{
+	float: right;
+}
+
+.side-nav li a:not(.button) {
+	color: white;
+}
+
+/* Orbit slider */
+
+.exampl-orbit{
+	float: right;
+}
+.orbit-container .orbit-slides-container li .orbit-caption{
+	background-color: #6B90CA;
+	padding: 20px;
+}
+
+.reveal-modal-bg {
+	background-image: url('http://sstapish.github.io/p3-style-tile/img/white-bg.png');
+}
+
+.orbit-prev{
+	width: 72px;
+}
+
+.orbit-container .orbit-slides-container li .orbit-caption {
+	width:96%;
+}
+
+.orbit-container .orbit-next {
+	right: -2em;
+	margin-right: 3em;
 }

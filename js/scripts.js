@@ -1,7 +1,11 @@
 // My Scripts
-$(document).foundation();
+$(document).foundation({
+
+	orbit : {
+		bullets : false,
+		animation : 'fade'
+	}
+});
 
 
-// Go Modal
 $('#myModal').foundation('reveal', 'open');
-$('#myModal').foundation('reveal', 'close');
