@@ -1,10 +1,31 @@
 /* My Styles */
+body{
+	background-image: url('http://sstapish.github.io/p3-style-tile/img/mocha.png');
+}
 
+h1{
+	font-family: 'Merienda', cursive;
+	color: #1E1C45;
+}
 
+h2, h3{
+	font-family:'Paprika', cursive;
+}
+
+.logo img{
+	max-width: 300px;
+	max-height: 200px;
+	
+}
+
+p{
+	margin-top: 2em;
+}
 /* Orbit slider */
 
+
 .orbit-container .orbit-slides-container li .orbit-caption{
-	background-color: rgba(241, 238, 163, 1);
+	background-color: #6B90CA;
 	padding: 20px;
 }
 
@@ -12,6 +33,11 @@
 	width: 72px;
 }
 
-.orbit-container .orbit-prev, .orbit-container .orbit-next{
+.orbit-container .orbit-slides-container li .orbit-caption {
+	width:96%;
+}
 
+.orbit-container .orbit-next {
+	right: -2em;
+	margin-right: 5em;
 }
