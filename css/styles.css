@@ -6,10 +6,18 @@ body{
 h1{
 	font-family: 'Merienda', cursive;
 	color: #1E1C45;
+	position:absolute;
+	top:4em;
 }
 
-h2, h3{
+}
+
+h2{
 	font-family:'Paprika', cursive;
+}
+
+header img{
+	position: relative;
 }
 
 .logo img{
@@ -18,15 +26,37 @@ h2, h3{
 	
 }
 
+.tabs{
+	margin-top: 2em;
+}
+
 p{
 	margin-top: 2em;
 }
+
+
+/*Side Nav*/
+
+.side-links{
+	float: right;
+}
+
+.side-nav li a:not(.button) {
+	color: white;
+}
+
 /* Orbit slider */
 
-
+.exampl-orbit{
+	float: right;
+}
 .orbit-container .orbit-slides-container li .orbit-caption{
 	background-color: #6B90CA;
 	padding: 20px;
+}
+
+.reveal-modal-bg {
+	background-image: url('http://sstapish.github.io/p3-style-tile/img/white-bg.png');
 }
 
 .orbit-prev{
@@ -39,5 +69,5 @@ p{
 
 .orbit-container .orbit-next {
 	right: -2em;
-	margin-right: 5em;
+	margin-right: 3em;
 }
