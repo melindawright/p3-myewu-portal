@@ -6,3 +6,6 @@ $(document).foundation({
 		animation : 'fade'
 	}
 });
+
+
+$('#myModal').foundation('reveal', 'open');
